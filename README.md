@@ -152,6 +152,11 @@ mix deps.get
 mix compile
 ```
 
+For tailwind v4, add this line alongside the `@source` directives in `assets/css/app.css`
+```css
+@source "../../deps/mishka_gervaz/lib";
+```
+
 Add the extension to your domain — set defaults that every resource in the domain inherits:
 
 ```elixir
